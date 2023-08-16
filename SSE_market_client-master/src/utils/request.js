@@ -4,7 +4,8 @@ import storageService from '@/service/storageService';
 import store from '@/store';
 
 const service = axios.create({
-  baseURL: process.env.VUE_APP_BASE_URL,
+  // baseURL: process.env.VUE_APP_BASE_URL,
+  baseURL: 'https://159.75.164.214:8080/api/',
   timeout: 5000,
 });
 
